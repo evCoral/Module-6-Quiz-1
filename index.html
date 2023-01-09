@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Polygons</title>
+  </head>
+  <body>
+    <main>
+      <!-- Title Section -->
+      <section id="title">
+        <h1>Polygons - Activity</h1>
+        <p id="polygon-name">Javascript File is not running</p>
+      </section>
+
+      <!-- Input Section -->
+      <section id="input">
+        <button id="minus">-</button>
+        <span id="display-angles">3</span>
+        <button id="add">+</button>
+      </section>
+
+      <!-- Showing of polygons -->
+      <section id="display">
+        <!-- https://www.w3schools.com/graphics/svg_polygon.asp -->
+        <svg height="600" width="500">
+          <polygon
+            id="polygon"
+            points=""
+            style="fill: lime; stroke: purple; stroke-width: 1"
+          />
+        </svg>
+      </section>
+    </main>
+  </body>
+
+  <!-- JavaScript -->
+  <script src="./app.js"></script>
+</html>
